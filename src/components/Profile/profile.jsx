@@ -41,7 +41,6 @@ const Profile = ({username, tag, location, avatar, stats}) => {
 
   <ul className="stats"
   style={{
-    listStyleType: 'none',
     margin: 0,
     padding: 0,
     display: 'flex',
