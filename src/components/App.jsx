@@ -7,6 +7,8 @@ import dataStats from './Statistics/data.json';
 import { FriendList } from "./Friends/listFriends";
 import friends from './Friends/friends.json';
 
+import { TransactionHistory } from "./TransactionHistory/transactionHistory";
+import items from './TransactionHistory/transactions.json';
 
 
 export const App = () => {
@@ -40,6 +42,10 @@ export const App = () => {
 
     <FriendList
     friends = {friends}
+    />
+
+    <TransactionHistory
+    items={items}
     />
     </div>
   );
