@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
-import './components/Profile/profile.css';
+
 import './components/Friends/friends.css';
 import './components/TransactionHistory/transaction.css';
 

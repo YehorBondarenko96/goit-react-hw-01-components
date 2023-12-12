@@ -27,26 +27,26 @@ export const App = () => {
         padding: 20
       }}
     >
-    <Profile
+    {user && <Profile
     username = {user.username}
     tag={user.tag}
     location={user.location}
     avatar={user.avatar}
     stats={user.stats}
-    /> 
+    /> }
 
-    <Statistics
+    {dataStats && <Statistics
     title= "Upload stats"
     stats = {dataStats}
-    />
+    />}
 
-    <FriendList
+    {friends && <FriendList
     friends = {friends}
-    />
+    />}
 
-    <TransactionHistory
+    {items && <TransactionHistory
     items={items}
-    />
+    />}
     </div>
   );
 };
