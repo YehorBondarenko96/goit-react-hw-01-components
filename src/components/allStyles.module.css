@@ -67,3 +67,34 @@
 .quantity{
     font-weight: 700;
 }
+
+
+
+.statistics{
+    background-color: #FFF;
+}
+
+.title{
+    font-size: 24px;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statList{
+    font-size: 20px;
+    display: flex;
+}
+
+.item{
+    width: 100px; 
+    height: 100px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}

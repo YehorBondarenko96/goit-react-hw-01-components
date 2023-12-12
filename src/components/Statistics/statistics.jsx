@@ -1,29 +1,11 @@
 import {ItemsStatistics} from './itemsStatistics';
+import css from '../allStyles.module.css';
 
 const Statistics = ({title, stats}) => {
-    return <section className="statistics"
-style={{
-  backgroundColor: '#FFF'
-}}
->
-  {title && title.length > 0 &&
- <h2 className="title"
-  style={{
-    fontSize: 24,
-    margin: 0,
-    height: 100,
-    display: "flex",
-    justifyContent: 'center',
-    alignItems: 'center'
-  }}
-  >{title}</h2>}
+    return <section className={css.statistics}>
+  {title && title.length > 0 && <h2 className={css.title}>{title}</h2>}
 
-  <ul className="stat-list"
-  style={{
-    fontSize: 20,
-    display: 'flex'
-  }}
-  >
+  <ul className={css.statList}>
     {stats.map(item =>{
       return (
         <ItemsStatistics 
