@@ -88,7 +88,7 @@
     display: flex;
 }
 
-.item{
+.itemStats{
     width: 100px; 
     height: 100px;
     display: flex;
@@ -97,4 +97,41 @@
     align-items: center;
     justify-content: center;
     color: #FFF;
+}
+
+
+
+.friendList{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.itemFriends{
+    background-color: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.status{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.avatarFriends{
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.nameFriends{
+    composes: p;
+    margin: 0 0 0 10px;
 }

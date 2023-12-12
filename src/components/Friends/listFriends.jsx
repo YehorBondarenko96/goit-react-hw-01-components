@@ -1,13 +1,8 @@
 import { FriendListItem } from "./itemFriendList";
+import css from '../allStyles.module.css';
 
 const FriendList = ({friends}) => {
-    return <ul className="friend-list"
-    style={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 5
-    }}
-    >
+    return <ul className={css.friendList}>
         {friends.map(friend => {
             return (
                 <FriendListItem

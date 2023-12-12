@@ -1,7 +1,7 @@
 import css from '../allStyles.module.css';
 
 const ItemsStatistics = ({label, percentage}) => {
-   return <li className={css.item} style={{backgroundColor: getRandomHexColor()}}>
+   return <li className={css.itemStats} style={{backgroundColor: getRandomHexColor()}}>
       <span className="label">{label}</span>
       <span className="percentage">{percentage}%</span>
     </li>

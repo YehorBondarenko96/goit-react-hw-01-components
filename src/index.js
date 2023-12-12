@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
 
-import './components/Friends/friends.css';
+
 import './components/TransactionHistory/transaction.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
