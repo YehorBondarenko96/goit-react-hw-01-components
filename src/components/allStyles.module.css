@@ -135,3 +135,23 @@
     composes: p;
     margin: 0 0 0 10px;
 }
+
+
+
+.transactionHistory {
+    border-collapse: collapse; 
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.transactionHistory th, .transactionHistory td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: center; 
+}
+
+.transactionHistory th {
+    background-color: #3baee1;
+    color: #FFF;
+}
